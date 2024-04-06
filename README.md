@@ -1,66 +1,12 @@
-## Foundry
+## Staking Booster Foundry
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+### Steps to clone
 
-Foundry consists of:
+1. Clone the repository and run `forge install`.
+2. To run tests on the smart contract `forge test`.
+3. Create .env file with `RPC_URL=`,`PRIVATE_KEY=`,`ETHERSCAN_API_KEY=` and run `source .env`
+4. Run command `make deploy` to deploy contract in testnet.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+### Contract deployment
 
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+Deployed at and verified Sepolia Testnet [0xad0111429834f4333f91e9Dd71d79c311b029361](https://sepolia.etherscan.io/address/0xad0111429834f4333f91e9dd71d79c311b029361)
