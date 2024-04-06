@@ -27,5 +27,4 @@ interface IStakingContract {
     function stake(uint256 _lockDuration) external payable;
     function unstake() external;
     function claimRewards() external;
-    function viewClaimableRewards(address _staker) external view returns (uint256);
 }
